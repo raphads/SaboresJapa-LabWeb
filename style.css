@@ -9,11 +9,7 @@ footer{
     border-color: #BC002D;
 
 }
-/*
-nav #sidebar{
-     height: 100px;
-    }
-*/  
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -27,12 +23,6 @@ body {
     background-repeat: no-repeat; 
     backdrop-filter: blur(10px);
 }
-/*
-body img:hover{
-  transform: scale(1.5,1.5);
-  align-self: center;
-}
-*/
 .logo{
   align-self: center;
 }
@@ -59,10 +49,7 @@ header {
 header h1 {
     font-size: 2rem;
 }
- /*
-header background-image {
-    object-position: -100px 10px;
-}*/
+
 .menu-icon {
     font-size: 30px;
     cursor: pointer;
@@ -186,7 +173,7 @@ footer a:hover{
 
 }
  
-/* Responsividade */
+/* Responsividade 
 @media (max-width: 768px) {
     .content {
         margin-left: 0;
@@ -216,18 +203,8 @@ footer a:hover{
     }
 }
  
-/**/
 
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100px;
-  position: relative;
-  margin: auto;
-}
-
-
+*/
 
 .text {
   color: #f2f2f2;
@@ -237,18 +214,6 @@ footer a:hover{
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
-
-
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
 
 div.scroll-container {
@@ -261,31 +226,7 @@ div.scroll-container {
   div.scroll-container img {
     padding: 10px;
   }
- /*
-  .fontemais{
-    background-color: #000;
-    color: #FFF;
-    text-align: center;
-    text-justify: auto;
-    padding: 10px;
-    position: fixed;
-    right: 30px;
-    bottom: 10px;
-    padding-right: 0%;
-  }
-
-  .fontemenos{
-    background-color: #000;
-    color: #FFF;
-    text-align: justify;
-    text-justify: auto;
-    padding: 10px;
-    position: fixed;
-    right: 70px;
-    bottom: 10px;
-    padding-right: 0%;
-  }
-*/
+ 
   .link{
    right: 30px;
    text-align: justify;
@@ -313,33 +254,19 @@ div.scroll-container {
    padding: 10px;
   }
 
-  iframe{
-    scroll-behavior: unset;
-    overflow:unset;
-    
-  }
+
 
  .scroll-container img{
   border-radius: 250px 250px 250px 250px;
   height: 250px;
   width: 250px;
-  /*background-color: white; height="25%" width="25%"*/
   margin: 0 10px 0 10px;
  }
 
  .scroll-container {
   color: #FFF;
  }
-/*
- section table{
-  width: inherit;
- }*/
-/*
- link{
-    color: #BC002D;
- }
 
- */
  footer link{
     color: #BC002D;
     

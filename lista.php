@@ -37,7 +37,7 @@ $result = $sql->get_result();
         <img src="images/logo.png" height="10%" width="10%" style="position: static; right: auto;">
     </header>
     <hr>
-    <nav class="sidebar" id="sidebar">
+    <nav class="sidebar" id="sidebar" style="height: 100px;">
         <ul>
             <li><a href="index.html">Início</a></li>
             <li><a href="cadastro.php">Cadastro</a></li>
