@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit">
     <title>Hinomaru Sushi - Login</title>
-    <link rel="icon" href="images/logo_semnome.png">
+    <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
     <script src="sushi.js"></script>
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
@@ -16,7 +16,7 @@
         <img src="images/logo.png" height="10%" width="10%" style="position: static; right: auto;">
     </header>
         <hr>
-        <nav class="sidebar" id="sidebar">
+        <nav class="sidebar" id="sidebar"  style="height: 100px;">
             <ul>
               <li><a href="index.html">Início</a></li>
             <li><a href="cadastro.php">Cadastro</a></li>
@@ -37,16 +37,15 @@
 
             <button type="submit" value="ENVIAR" onClick="Validar()">Entrar</button>
             <button type="reset" value="LIMPAR">Limpar</button>
+            <p><a href="index.html">Esqueceu a Senha?</a></p>
 </form>
 </section>
 
-
+<br>
 <footer>
         <p><a href="sobrenos.html">Sobre nós</a></p>
         <p>Endereco: Av. Antônia Rosa Fioravanti, 804. Maua-SP CEP: 09360-120</p>
 </footer>
-
-
 
 </body>
 </html>

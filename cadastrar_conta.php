@@ -28,7 +28,7 @@ $result = $sql->get_result(); // Executa a consulta e obtém o resultado
 
     }
 
-header('location:area_adm.php');
+header('location:cadastro_receita.php');
 ?>
      	
 				  

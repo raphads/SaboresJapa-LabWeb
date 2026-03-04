@@ -4,8 +4,16 @@
     src: ('images/NicoMoji-Regular.ttf');
 } 
  
+footer{
+    border-style: ;
+    border-color: #BC002D;
 
- 
+}
+/*
+nav #sidebar{
+     height: 100px;
+    }
+*/  
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
@@ -35,12 +43,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Lilita One", sans-serif;
+    font-family: "Nico Moji", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    background-image: url('images/bgheader.png');
-    background-size: cover  ;
+    background-image: url('images/bg1.png');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -160,6 +168,8 @@ button:hover {
 
 
 footer {
+    border-style: solid; 
+    border-color: #BC002D;
     background-color: #fff;
     color: #BC002D;
     padding: 20px;
@@ -242,7 +252,7 @@ footer a:hover{
 }
 
 div.scroll-container {
-    background-color: #333;
+    background-color: #fff;
     overflow: auto;
     white-space: nowrap;
     padding: 10px;
@@ -251,7 +261,7 @@ div.scroll-container {
   div.scroll-container img {
     padding: 10px;
   }
- 
+ /*
   .fontemais{
     background-color: #000;
     color: #FFF;
@@ -275,7 +285,7 @@ div.scroll-container {
     bottom: 10px;
     padding-right: 0%;
   }
-
+*/
   .link{
    right: 30px;
    text-align: justify;
@@ -324,3 +334,13 @@ div.scroll-container {
  section table{
   width: inherit;
  }*/
+/*
+ link{
+    color: #BC002D;
+ }
+
+ */
+ footer link{
+    color: #BC002D;
+    
+ }

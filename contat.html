@@ -6,27 +6,12 @@
     <title>Hinomaru Sushi</title>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
-    <script src="site_academia.js"></script>
+    <script src="sushi.js"></script>
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-	<script type="text/javascript">
-			$(function(){
-                $("#fontemais").on("click", function(){
-					$("body").css({
-						"font-size": "+=4px"
-					});
-				});
-
-				$("#fontemenos").on("click", function(){
-					$("body").css({
-						"font-size": "-=4px"
-					});
-				});
-            });
-    </script>
 
 </head>
 
-    <body link="white" alink="purple" vlink="white">
+    <body link="red" alink="red" vlink="red">
         <header>
             <div class="menu-icon" onclick="toggleMenu()"  style="visibility: hidden;">&#9776;</div>
             <img src="images/logo.png" height="10%" width="10%" style="position: static; right: auto;">
@@ -44,19 +29,29 @@
                 <li><a href="relatorios.html">Relatórios</a></li>
             </ul>
         </nav>
-  
-    <footer>
-        <p>  <a href="https://facebook.com/"><img class="facebook" backgorund="white" src="images/facebook.png" alt="" height="20px" width="20px"></a>&nbsp;  &nbsp;  <a href="https://instagram.com/"> <img class="facebook" src="images/instagram - Copia.png" alt="" height="20px" width="20px"></a>  &nbsp;  &nbsp;    <a href="https://twitter.com/"><img class="facebook" src="images/twitter.png" height="20px" width="20px"></a> &nbsp;  &nbsp;  <a href="https://tiktok.com/"><img class="facebook" src="images/tik-tok.png" alt="" height="20px" width="20px"></a> &nbsp;  &nbsp;  <a href="https://youtube.com/"><img class="facebook" src="images/youtube.png" alt="" height="20px" width="20px"></a> </p>
-        <p>Telefone: (99) 99999-9999</p>
-        <p><a href="sobrenos.html">Sobre nós</a></p>
-    <div id="tamanho">
-        <input type="button" name="fontemais" id="fontemais" class="fontemais" value="A+"> &nbsp;
-        <input type="button" name="fontemenos" id="fontemenos" class="fontemenos" value="A-">
-    </div>
-    <div id="apli">
+  <section class="content" name="content">
+    <p>  <a href="https://facebook.com/"><img class="facebook" backgorund="white" src="images/facebook.png" alt="" height="20px" width="20px"></a>&nbsp;  &nbsp;  <a href="https://instagram.com/"> <img class="facebook" src="images/instagram - Copia.png" alt="" height="20px" width="20px"></a>  &nbsp;  &nbsp;    <a href="https://twitter.com/"><img class="facebook" src="images/twitter.png" height="20px" width="20px"></a> &nbsp;  &nbsp;  <a href="https://youtube.com/"><img class="facebook" src="images/youtube.png" alt="" height="20px" width="20px"></a> </p>
+       <p><img class="facebook" src="images/zap.png" height="20px" width="20px">&nbsp; (99) 99999-9999</p>
+
+        <div id="apli">
         <p>Baixe nosso aplicativo</p>
         <p><a href="https://play.google.com/"><img class="facebook" src="images/googlePlay.png"</a></p> <p><a href="https://www.apple.com/br/app-store/"><img class="facebook" src="images/appStore.png"</a></p>
     </div>
+
+    <div style="position: right; ">
+        <p>
+      <a href="https://maps.google.com"><img class="facebook" src="images/mapss.png"></a>
+      <a href="https://maps.google.com"><img class="facebook" src="images/mapa.png" height="500px" width="500px"></a>
+        </p>
+    </div>
+  </section>
+
+<br>
+    <footer style="border-style: solid; border-color: red;">
+        
+        <p><a href="sobrenos.html">Sobre nós</a></p>
+
+    
     </footer>
 </body>
 </html>

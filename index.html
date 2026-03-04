@@ -8,33 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <script src="sushi.js"></script>
     <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
-	<script type="text/javascript">
-			$(function(){
-                $("#fontemais").on("click", function(){
-					$("body").css({
-						"font-size": "+=4px"
-					});
-				});
-
-				$("#fontemenos").on("click", function(){
-					$("body").css({
-						"font-size": "-=4px"
-					});
-				});
-            });
-    </script>
 
 </head>
 
-    <body link="white" alink="purple" vlink="white">
+    <body link="red" alink="red" vlink="red">
         <header>
          <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
         <img src="images/logo.png" height="10%" width="10%" style="position: static; right: auto;">
           </header>
         <hr>
-        <nav class="sidebar" id="sidebar">
+        <nav class="sidebar" id="sidebar"  style="height: 100px;">
             <ul>
-              <li><a href="index.html">Início</a></li>
+            <li><a href="index.html">Início</a></li>
             <li><a href="cadastro.php">Cadastro</a></li>
             <li><a href="login.php">Login</a></li>
             <li><a href="contat.html">Contato</a></li>
@@ -46,16 +31,17 @@
 
 <div class="scroll-container">
     <marquee>
-        <img src="images/img1.jpg">
-        <img src="images/img2.jpg">
+       
+       <a href="kareraisu.html"> <img src="images/img2.jpg"></a> 
+       <img src="images/img1.jpg">
         <img src="images/img3.jpg">
         <img src="images/img4.jpg">
         <img src="images/img5.jpg">
-        <img src="images/img6.jpg">
+      <a href="okonomiaki.html"> <img src="images/img6.jpg"></a>
         <img src="images/img7.jpg">
         <img src="images/img8.jpg">
         <img src="images/img9.jpg">
-        <img src="images/img10.jpg">
+       <a href="sushi.html"> <img src="images/img10.jpg"></a>
     </marquee>
 </div>
     <footer>
